@@ -1,4 +1,4 @@
-
+package No2;
 
 import java.util.Scanner;
 class DeteksiAngka {
@@ -31,6 +31,7 @@ public class B {
         System.out.print("Masukkan angka : ");
 
         int x = scanner.nextInt();
+
         deteksiAngka = new DeteksiAngka(x);
         deteksiAngka.setBilangan();
 
